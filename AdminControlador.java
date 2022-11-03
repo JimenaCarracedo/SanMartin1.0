@@ -9,7 +9,7 @@ public class AdminControlador {
 	@GetMapping("/admin")
 	public String getLoginPage(Model model) {
 	    model.addAttribute("activeLink", "Admin");
-	    return "admin/inicio";
+	    return "admin/index";
 	}
 
 }
