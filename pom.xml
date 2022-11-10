@@ -172,7 +172,16 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+
+					<executions>
+          					<execution>
+            						<goals>
+              							<goal>repackage</goal>
+            						</goals>
+						</execution>
+					</executions>
+						<configuration>
+<mainClass>com.sanmartin.club.ClubAplication</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
