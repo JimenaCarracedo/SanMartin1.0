@@ -181,7 +181,6 @@
 						</execution>
 					</executions>
 						<configuration>
-<mainClass>com.sanmartin.club.ClubAplication</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
